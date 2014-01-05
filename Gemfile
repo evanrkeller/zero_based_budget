@@ -46,3 +46,5 @@ end
 
 # Use RSpec
 gem 'rspec-rails', group: :test
+
+gem 'devise'

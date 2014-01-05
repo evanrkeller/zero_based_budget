@@ -21,3 +21,11 @@
 
     # Run the test suites
     rake
+
+## Creating Users
+
+  rails console
+  User.create email: "email@domain.com", password: "password"
+  exit
+
+  # You can now log in with the specified email/password, or use the "Forgot Password" feature to reset the password
