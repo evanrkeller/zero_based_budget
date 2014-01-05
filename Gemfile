@@ -45,6 +45,9 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Use RSpec
-gem 'rspec-rails', group: :test
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+end
 
 gem 'devise'
