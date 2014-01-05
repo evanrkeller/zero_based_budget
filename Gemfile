@@ -50,4 +50,6 @@ group :development, :test do
   gem 'shoulda-matchers'
 end
 
+gem 'simplecov', :require => false, :group => :test
+
 gem 'devise'

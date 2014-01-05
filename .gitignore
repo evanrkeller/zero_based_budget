@@ -20,3 +20,6 @@
 
 # Ignore RSpec settings file
 .rspec
+
+# Ignore SimpleCov output
+/coverage
