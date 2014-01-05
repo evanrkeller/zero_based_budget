@@ -10,6 +10,9 @@
 
   Once you have the dependancies resolved, install gems and create the databases with:
 
+    cd ~/Projects #or where ever you keep your projects
+    git clone git@github.com:evanrkeller/zero_based_budget.git
+    cd zero_based_budget
     cp {example-,}.ruby-version
     cp {example-,}.ruby-gemset
     cp config/{example-,}database.yml
@@ -24,8 +27,8 @@
 
 ## Creating Users
 
-  rails console
-  User.create email: "email@domain.com", password: "password"
-  exit
+    rails console
+    User.create email: "email@domain.com", password: "password"
+    exit
 
-  # You can now log in with the specified email/password, or use the "Forgot Password" feature to reset the password
+    # You can now log in with the specified email/password, or use the "Forgot Password" feature to reset the password
